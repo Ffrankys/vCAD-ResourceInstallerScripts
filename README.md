@@ -14,3 +14,6 @@ Repository for storing the install scripts for the Script Testservers.
 ## AltV
 - [Standalone](https://github.com/Ffrankys/vCAD-ResourceInstallerScripts/blob/main/AltV/Standalone/ResourceInstaller.sh)
 
+
+# Todo
+- Links to zip like this: https://github.com/vCAD-Systems/vCAD_ui/archive/refs/heads/altv.zip
