@@ -15,3 +15,7 @@ echo "Downloading vCAD_Livemap resource"
 mkdir ./vCAD_livemap
 git clone https://github.com/vCAD-Systems/vcad-livemap-fivem/tree/standalone.git ./vCAD_livemap
 
+#echo "Downloading vCAD-Sync resource"
+#mkdir ./vCAD_Sync
+#git clone https://github.com/vCAD-Systems/vCAD-Sync/tree/standalone.git ./vCAD_Sync
+
