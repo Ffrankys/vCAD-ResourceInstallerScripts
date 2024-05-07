@@ -7,6 +7,10 @@ git clone https://github.com/citizenfx/cfx-server-data.git /tmp
 mkdir ./[cfx-default]
 cp -Rf /tmp/resources/* ./[cfx-default]
 
+
+# Nothing to install
+
+
 echo "Downloading vCAD_UI resource"
 mkdir ./vCAD_ui
 git clone https://github.com/vCAD-Systems/vCAD_ui/tree/fivem.git ./vCAD_ui
