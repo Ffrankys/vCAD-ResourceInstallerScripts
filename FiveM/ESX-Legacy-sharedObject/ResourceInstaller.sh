@@ -91,8 +91,9 @@ mv /tmp/fivem/addons/ ./[esx_addons]
 # Download pma-voice
 git clone https://github.com/AvarianKnight/pma-voice.git ./[standalone]/pma-voice
 # Download oxmysql
-wget -O /tmp/fivem/files/oxmysql.zip https://github.com/overextended/oxmysql/releases/latest/download/oxmysql.zip
-unzip -q /tmp/fivem/files/oxmysql.zip -d ./[standalone]
+echo "Downloading oxmysql resource files"
+wget -O /tmp/fivem/oxmysql.zip https://github.com/overextended/oxmysql/releases/latest/download/oxmysql.zip
+unzip -q /tmp/fivem/oxmysql.zip -d ./
 
 
 
