@@ -3,19 +3,19 @@ apt install -y git
 # SCRIPT IS RUN INSIDE THE RESOURCE FOLDER
 
 echo "Downloading citizenfx resource files"
-git clone https://github.com/citizenfx/cfx-server-data.git /tmp
+git clone https://github.com/citizenfx/cfx-server-data.git /tmp/fivem/cfx-server-data
 mkdir ./[cfx-default]
-cp -Rf /tmp/resources/* ./[cfx-default]
+cp -Rf /tmp/fivem/cfx-server-data/resources/* ./[cfx-default]
 
 
 #QB Scripts goo brrrrr
 echo "Downloading oxmysql resource files"
-wget -O /tmp/oxmysql.zip https://github.com/overextended/oxmysql/releases/download/v2.9.1/oxmysql.zip
-unzip -q /tmp/oxmysql.zip -d ./oxmysql
+wget -O /tmp/fivem/oxmysql.zip https://github.com/overextended/oxmysql/releases/download/v2.9.1/oxmysql.zip
+unzip -q /tmp/fivem/oxmysql.zip -d ./oxmysql
 
 echo "Downloading menuv resource files"
-wget -O /tmp/menuv.zip https://github.com/ThymonA/menuv/releases/download/v1.4.1/menuv_v1.4.1.zip
-unzip -q /tmp/menuv.zip -d ./menuv
+wget -O /tmp/fivem/menuv.zip https://github.com/ThymonA/menuv/releases/download/v1.4.1/menuv_v1.4.1.zip
+unzip -q /tmp/fivem/menuv.zip -d ./menuv
 
 echo "Downloading bob74_ipl resource files"
 git clone https://github.com/qbcore-framework/bob74_ipl.git ./bob74_ipl
@@ -239,9 +239,14 @@ git clone https://github.com/vCAD-Systems/vCAD_ui/tree/fivem.git ./vCAD_ui
 
 echo "Downloading vCAD_Livemap resource"
 mkdir ./vCAD_livemap
-git clone https://github.com/vCAD-Systems/vcad-livemap-fivem/tree/standalone.git ./vCAD_livemap
+wget -O /tmp/fivem/vcad-livemap.zip https://github.com/vCAD-Systems/vcad-livemap-fivem/archive/refs/heads/qbcore.zip
+unzip -q /tmp/fivem/vcad-livemap.zip -d ./vCAD_livemap
 
 echo "Downloading vCAD-Sync resource"
 mkdir ./vCAD_Sync
 git clone https://github.com/vCAD-Systems/vCad-Sync-QB.git ./vCAD_Sync
 
+
+
+echo "Cleanup"
+rm -rf /tmp/fivem/*
