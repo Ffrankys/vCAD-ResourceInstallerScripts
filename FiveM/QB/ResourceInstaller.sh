@@ -11,7 +11,7 @@ cp -Rf /tmp/fivem/cfx-server-data/resources/* ./[cfx-default]
 #QB Scripts goo brrrrr
 echo "Downloading oxmysql resource files"
 wget -O /tmp/fivem/oxmysql.zip https://github.com/overextended/oxmysql/releases/download/v2.9.1/oxmysql.zip
-unzip -q /tmp/fivem/oxmysql.zip -d ./oxmysql
+unzip -q /tmp/fivem/oxmysql.zip -d ./
 
 echo "Downloading menuv resource files"
 wget -O /tmp/fivem/menuv.zip https://github.com/ThymonA/menuv/releases/download/v1.4.1/menuv_v1.4.1.zip
