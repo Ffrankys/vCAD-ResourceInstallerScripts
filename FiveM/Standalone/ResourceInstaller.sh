@@ -11,9 +11,12 @@ cp -Rf /tmp/fivem/cfx-server-data/resources/* ./[cfx-default]
 # Nothing to install
 
 
+# vCAD Scripts
+
 echo "Downloading vCAD_UI resource"
 mkdir ./vCAD_ui
-git clone https://github.com/vCAD-Systems/vCAD_ui/tree/fivem.git ./vCAD_ui
+git clone https://github.com/vCAD-Systems/vCAD_ui.git ./vCAD_ui
+
 
 echo "Downloading vCAD_Livemap resource"
 mkdir ./vCAD_livemap

@@ -235,12 +235,14 @@ git clone https://github.com/qbcore-framework/qb-loading.git ./[qb]/qb-loading
 
 echo "Downloading vCAD_UI resource"
 mkdir ./vCAD_ui
-git clone https://github.com/vCAD-Systems/vCAD_ui/tree/fivem.git ./vCAD_ui
+git clone https://github.com/vCAD-Systems/vCAD_ui.git ./vCAD_ui
+
 
 echo "Downloading vCAD_Livemap resource"
 mkdir ./vCAD_livemap
 wget -O /tmp/fivem/vcad-livemap.zip https://github.com/vCAD-Systems/vcad-livemap-fivem/archive/refs/heads/qbcore.zip
 unzip -q /tmp/fivem/vcad-livemap.zip -d ./vCAD_livemap
+
 
 echo "Downloading vCAD-Sync resource"
 mkdir ./vCAD_Sync
