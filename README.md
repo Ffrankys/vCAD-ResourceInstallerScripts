@@ -4,10 +4,10 @@ Repository for storing the install scripts for the Script Testservers.
 ## FiveM
 - [Standalone](https://github.com/Ffrankys/vCAD-ResourceInstallerScripts/blob/main/FiveM/Standalone/ResourceInstaller.sh)
 
-### FiveM - ESX
+### ESX
 - [ESX-Legacy](https://github.com/Ffrankys/vCAD-ResourceInstallerScripts/blob/main/FiveM/ESX-Legacy/ResourceInstaller.sh)
 
-### FiveM - QB
+### QB
 - [QB](https://github.com/Ffrankys/vCAD-ResourceInstallerScripts/blob/main/FiveM/QB/ResourceInstaller.sh)
 
 ## AltV
